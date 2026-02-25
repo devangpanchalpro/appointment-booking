@@ -1,0 +1,25 @@
+# ═══════════════════════════════════════════════════════════
+# Medical Appointment Booking Agent - Python Dependencies
+# Install: pip install -r requirements.txt
+# ═══════════════════════════════════════════════════════════
+
+# FastAPI & Server
+fastapi
+uvicorn[standard]
+
+# ✅ REAL MCP Library (Model Context Protocol by Anthropic)
+mcp
+
+# HTTP Client (Ollama + External API calls)
+httpx
+
+# Data Validation
+pydantic
+pydantic-settings
+
+# Environment Variables
+python-dotenv
+
+# Streamlit UI
+streamlit
+requests
